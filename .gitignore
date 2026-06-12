@@ -37,3 +37,7 @@ desktop.ini
 # Large manual test assets
 tools/win7-vm/assets/*
 !tools/win7-vm/assets/.gitkeep
+
+# Legacy Baidu Sync placeholders
+pdf_ocr_word_standalone/
+win7_test_assets/
