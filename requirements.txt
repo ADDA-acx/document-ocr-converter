@@ -1,0 +1,10 @@
+pymupdf
+python-docx
+pdf2docx
+rapidocr-onnxruntime
+onnxruntime
+Pillow
+numpy
+opencv-python
+openpyxl
+pyinstaller

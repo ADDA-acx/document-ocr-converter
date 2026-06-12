@@ -1,0 +1,29 @@
+# Binary versions are deliberately frozen for the Windows 7 build.
+# Install RapidOCR separately with --no-deps; opencv-python-headless provides cv2
+# without pulling in a second, conflicting OpenCV wheel.
+PyMuPDF==1.22.5
+python-docx==1.1.0
+pdf2docx==0.5.8
+onnxruntime==1.14.1
+Pillow==10.4.0
+numpy==1.24.4
+opencv-python-headless==4.8.1.78
+openpyxl==3.1.5
+et_xmlfile==2.0.0
+pyclipper==1.3.0.post5
+PyYAML==6.0.1
+Shapely==2.0.1
+six==1.16.0
+tqdm==4.66.1
+PyInstaller==5.13.2
+
+# Freeze native/transitive packages too. Otherwise a later pip run can silently
+# select a newly-built wheel whose Windows baseline is newer than Windows 7.
+lxml==4.9.3
+fonttools==4.53.1
+protobuf==4.25.3
+flatbuffers==23.5.26
+pyinstaller-hooks-contrib==2023.8
+pefile==2023.2.7
+setuptools==65.5.1
+packaging==24.1

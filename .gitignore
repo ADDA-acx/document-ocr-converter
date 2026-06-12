@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Build environments and outputs
+.tools/
+.build/
+.dist/
+build/
+dist/
+release/*
+!release/README.md
+*.spec
+
+# Runtime state
+config.json
+logs/
+temp/
+startup_error.log
+*.log
+tools/win7-vm/win7_vm_prepare_status.txt
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large manual test assets
+tools/win7-vm/assets/*
+!tools/win7-vm/assets/.gitkeep
